@@ -32,6 +32,12 @@ public Escritorio()
     panel.add(label);//agrego los elementos al JPanel
     panel.add(text);
     panel.add(boton);
+    panel.add(verificacion);
+    panel.add(presione);
+    
+    label.setText("Nombre");
+    boton.setText("Enviar");
+    panel.setBackground(Color.pink);
 }
 
 
