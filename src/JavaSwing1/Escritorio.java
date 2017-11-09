@@ -11,6 +11,12 @@ import java.awt.*;
  *
  * @author LAB10
  */
-public class Escritorio extends JFrame {
-    
+public class Escritorio extends JFrame
+{
+    JPanel panel;
+   JLabel  label;
+   JTextField text;
+   JButton boton; 
+JCheckBox verificacion;
+JRadioButton presione;
 }
